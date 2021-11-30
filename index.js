@@ -221,6 +221,7 @@ app.delete('/api/saller/:id', (req, res) => {
     }
 })
 
+
 app.get('/api/saller', (req, res) => {
     res.json({
         sallers
